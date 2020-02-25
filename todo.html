@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ToDoList</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script defer type="text/javascript" src="api-client.js"></script>
+		<script defer type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<h1>To Do List</h1>
+
+			<form class="toDoForm" method="POST">
+				<input
+					type="text"
+					name="textfield"
+					placeholder="AddToDo"
+					id="textbox"
+				/>
+				<button type="submit" class="buttonToDo" value="button">AddToDo</button>
+			</form>
+
+			<div id="containerToDo">
+				<ul id="listtodo"></ul>
+			</div>
+		</div>
+	</body>
+</html>

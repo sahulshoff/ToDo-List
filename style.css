@@ -1,0 +1,15 @@
+.container {
+	/* border: 5px solid grey; */
+	margin: 0 auto;
+	width: 360px;
+	height: auto;
+}
+
+li {
+	margin-left: -20px;
+	list-style: none;
+}
+
+img {
+	margin-right: 10px;
+}
